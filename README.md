@@ -1,32 +1,29 @@
-# Date Diff API (with golang)
+# Date Diff API Go
 
-This API simply calculates the difference between two given dates. It takes two dates as parameters and gives results in JSON format.
+This Golang API (running as a Vercel Serverless Function) simply calculates the difference between two given dates. It takes two dates as parameters and gives results in JSON format.
 
 ## Installation
 
 ```bash
 
-cd api-date-diff
+cd api-date-diff-go
 
-go run main.go
+npm i -g vercel
+
+vercel login
+
+vercel
 
 ```
 
 ## Usage
 
-```bash
 
-[your_url]/api/dd?d1=[date1]&d2=[date2]
-
-```
+`[your_url]/api/dd.go?d1=[date1]&d2=[date2]`
 
 Example:
 
-```bash
-
-[your_url]/api/dd?d1=2017-10-21&d2=2021-01-24
-
-```
+`[your_url]/api/dd.go?d1=2017-10-21&d2=2021-01-24`
 
 Result:
 
@@ -46,4 +43,4 @@ Result:
 
 ## Demo
 
-https://api-date-diff-go.vercel.app
+https://api-date-diff-go.vercel.app/api/dd.go?d1=2017-10-21&d2=2021-02-14
