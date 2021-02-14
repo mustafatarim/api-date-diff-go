@@ -8,7 +8,7 @@ import (
 )
 
 type DateDiff struct {
-	InYears   int `json:"InYears"`
+	InYears   int `json:"inYears"`
 	InMonths  int `json:"inMonths"`
 	InWeeks   int `json:"inWeeks"`
 	InDays    int `json:"inDays"`
