@@ -1,5 +1,7 @@
 # Date Diff API Go
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/mustafatarim/api-date-diff-go)](https://goreportcard.com/report/github.com/mustafatarim/api-date-diff-go)
+
 This Golang API (running as a Vercel Serverless Function) simply calculates the difference between two given dates. It takes two dates as parameters and gives results in JSON format.
 
 ## Installation
